@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+div {
+  header {
+    background-color: $color-four;
+    padding: 0 60px;
+    nav {
+      height: 6vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin: 10px;
+        }
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li {
+            input {
+                padding: 10px 30px;
+                border-radius: 5px;
+                border: 0;
+                background-color: $color-third;
+            }
+            margin: 0 10px;
+            button {
+                background-color: $color-primary;
+                color: $color-four;
+                border: none;
+                padding: 10px 30px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}

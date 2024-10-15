@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "./variables";
+@import "../components/Header/header";
+@import "../components/Footer/footer";
+@import "../components/PostCard/postCard";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+
+body {
+    background-color: $color-primary;
+    background-image: linear-gradient(#2e7598f5, #2e7598f3), url(../assets/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
