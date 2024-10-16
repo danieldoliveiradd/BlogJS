@@ -1,4 +1,5 @@
 import "./_header.scss";
+import { Link } from "react-router-dom";
 import logoBlog from "../../assets/images/logo.svg";
 
 export default function Header() {
@@ -6,16 +7,16 @@ export default function Header() {
     <div>
       <header className="container-header">
         <nav>
-          <div className="logo">
-            <img src={logoBlog} alt="" />
-            <h1>The Day JS.</h1>
-          </div>
+            <div className="logo">
+              <img src={logoBlog} alt="" />
+              <h1>The Day JS.</h1>
+            </div>
           <ul>
             <li>
               <input type="text" placeholder="Search for something" />
             </li>
             <li>
-              <button>Login</button>
+              <Link to="/entrar">Logar</Link>
             </li>
           </ul>
         </nav>

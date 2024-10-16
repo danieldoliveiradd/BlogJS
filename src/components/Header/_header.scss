@@ -11,9 +11,18 @@ div {
       align-items: center;
       width: 100%;
       .logo {
+        // a{
+        //   display: flex;
+        //   text-decoration: none;
+        //   color: $color-secondary;
+        // }
+        cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
+        &:active{
+          transform: scale(1.1);
+        }
         img {
           margin: 10px;
         }
@@ -30,7 +39,8 @@ div {
             background-color: $color-third;
           }
           margin: 0 10px;
-          button {
+          a {
+            text-decoration: none;
             background-color: $color-primary;
             color: $color-four;
             border: none;
