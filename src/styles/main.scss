@@ -12,11 +12,11 @@
 }
 
 body {
-    background-color: $color-primary;
-    background-image: linear-gradient(#2e7598f5, #2e7598f3), url(../assets/images/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  background-color: $color-primary;
+  background-image: linear-gradient(#2e7598f5, #2e7598f3),
+    url(../assets/images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
-

@@ -4,7 +4,7 @@ import logoBlog from "../../assets/images/logo.svg";
 export default function Header() {
   return (
     <div>
-      <header>
+      <header className="container-header">
         <nav>
           <div className="logo">
             <img src={logoBlog} alt="" />

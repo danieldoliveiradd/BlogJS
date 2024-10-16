@@ -53,4 +53,21 @@ img {
     flex-direction: column; /* Alinha os ícones na vertical */
     justify-content: center; /* Centraliza os ícones verticalmente */
     margin-left: 10px; /* Espaçamento à esquerda da coluna medias */
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        li{
+            img{
+                margin: 8px 0 8px 0;
+                max-width: 27px;
+                cursor: pointer;
+                &:active{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
 }

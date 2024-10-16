@@ -1,5 +1,10 @@
 import "./_postCard.scss";
 import imagePost from "../../assets/images/image-post.jpg";
+import iconFacebook from "../../assets/images/facebook.svg"
+import iconDiscord from "../../assets/images/discord.svg"
+import iconGithub from "../../assets/images/github.svg"
+import iconLinkedink from "../../assets/images/youtube.svg"
+import iconYoutube from "../../assets/images/linkedin.svg"
 
 export default function PostCard() {
   return (
@@ -20,10 +25,13 @@ export default function PostCard() {
         <img src={imagePost} alt="" />
       </div>
       <div className="medias">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
+        <ul>
+        <li><img src={iconFacebook} alt="" /></li>
+        <li><img src={iconDiscord} alt="" /></li>
+        <li><img src={iconGithub} alt="" /></li>
+        <li><img src={iconLinkedink} alt="" /></li>
+        <li><img src={iconYoutube} alt="" /></li>
+        </ul>
       </div>
     </div>
   );
